@@ -1,0 +1,103 @@
+/* 
+    Created on : Mar 28, 2023, 1:52:37 AM
+    Author     : maha
+*/
+/*for main headings*/
+
+h1 {
+    position: relative;
+    left: 20px;
+    font-family: 'Crimson Text', serif;
+}
+
+
+
+caption {
+ text-align:left;
+ font-size:22px;
+  font-weight: bold;
+  padding:5px;
+font-family: 'Crimson Text', serif;
+
+  
+}
+
+table, td,th{
+  border: 1px solid;
+  height:40px;
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+
+}
+
+td{
+    color: darkblue;
+    border: black solid;
+}
+
+th{
+
+   font-size: 18px;
+ 
+}
+
+
+table{
+  border-collapse: collapse;
+      text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+          }
+
+thead
+{
+    background-color: #EBF4FA;
+    padding: 10%;
+    
+}
+th{
+    padding: 20px;
+    
+}
+     
+        
+
+
+    header{
+  height: 170px;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='170' preserveAspectRatio='none' viewBox='0 0 1440 170'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1051%26quot%3b)' fill='none'%3e%3crect width='1440' height='170' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c75 C 57.6%2c65.4 172.8%2c27.8 288%2c27 C 403.2%2c26.2 460.8%2c69.8 576%2c71 C 691.2%2c72.2 748.8%2c33.6 864%2c33 C 979.2%2c32.4 1036.8%2c70.2 1152%2c68 C 1267.2%2c65.8 1382.4%2c31.2 1440%2c22L1440 170L0 170z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c154 C 57.6%2c147.2 172.8%2c118.8 288%2c120 C 403.2%2c121.2 460.8%2c164.4 576%2c160 C 691.2%2c155.6 748.8%2c101.2 864%2c98 C 979.2%2c94.8 1036.8%2c140.4 1152%2c144 C 1267.2%2c147.6 1382.4%2c121.6 1440%2c116L1440 170L0 170z' fill='rgba(187%2c 63%2c 40%2c 0.43)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1051'%3e%3crect width='1440' height='170' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");      background-color: darkcyan; /* For browsers that do not support gradients */
+        }
+        
+          footer{
+   height: 100px;
+  background-color: #0e2a47; /* For browsers that do not support gradients */
+        }
+        
+ Html , body 
+        {height : auto ; width : 99.5% ;}
+
+main { 
+width : auto ;
+height : auto ;
+}
+
+main {
+background-color:#FBFBFC;
+border : solid 2px #F2F2F2;
+padding : 1% ;
+margin : 1% ;
+}
+
+
+   .copyright {
+      width: 50%;
+   float: left;
+     padding-left: 10%;
+        color:white;
+        font-size: 1em;
+        line-height: 50px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+   }
+   
+  

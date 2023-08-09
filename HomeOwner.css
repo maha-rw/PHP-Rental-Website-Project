@@ -1,0 +1,81 @@
+/*
+*/
+/* 
+    Created on : Mar 29, 2023, 1:35:59 AM
+*/
+main 
+{
+height: 100%;
+background-color:#FBFBFC;
+border : solid 2px #F2F2F2;
+padding : 1% ;
+margin : 1% ;
+
+
+}
+ul{
+    position: relative;
+    left: 30px;
+      list-style: square url(redstar.png) inside;
+
+} 
+
+a{
+    color:#5B8C9B;
+}
+a:hover{
+    color:#c84b32;
+}
+button {
+ padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ color:red;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+ position: absolute;
+top:25%;
+right: 7%;
+font-family: 'Crimson Text', serif;
+
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #324760;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+button:hover {
+ color: red;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+
+
+h5{
+    margin-left: 88%;
+                       font-weight: bold;
+                       font-size: 15px;
+                       color:red;
+                           
+}

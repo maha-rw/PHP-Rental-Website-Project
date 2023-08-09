@@ -1,0 +1,57 @@
+
+button:hover {
+  opacity: 0.8;
+}
+
+button {
+  
+
+ /* padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  border-radius: 12px;
+  background-color: #FE773C;*/
+  
+  
+  
+  display: absolute;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FE773C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    width: 60%;
+
+
+}
+
+
+
+
+
+input {
+  width: 100%;
+
+}
+
+h2{
+font-family: 'Crimson Text', serif;}
+
+.buttons{
+	
+font-family: 'Crimson Text', serif;
+}
+
+main {
+   
+            text-align: center;
+       
+}
